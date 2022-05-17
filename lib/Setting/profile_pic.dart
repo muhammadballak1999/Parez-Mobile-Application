@@ -10,6 +10,7 @@ import 'package:flutter_auth/models/config.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:dio/dio.dart';
+import 'package:quiver/strings.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Map<String, String> requestHeaders = {'Content-Type': 'application/json'};
@@ -135,50 +136,28 @@ class _ProfilePicState extends State<ProfilePic> {
         child: SizedBox(
       height: 135,
       width: 115,
-      child: Stack(
-        overflow: Overflow.visible,
-        fit: StackFit.passthrough,
-        children: [
-          !loading
-              ? url != ""
-                  ? Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                      image: NetworkImage(this.url),
-                    )))
-                  : Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                      image: AssetImage("assets/images/photo.jpg"),
-                    )))
-              : Container(
-                  child: CircularProgressIndicator(
-                  color: Colors.purple,
-                )),
-          Positioned(
-            right: -12,
-            bottom: 0,
-            child: SizedBox(
-              height: 46,
-              width: 46,
-              child: FlatButton(
-                padding: EdgeInsets.zero,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50),
-                    side: BorderSide(color: Colors.white)),
-                onPressed: () => cameraOrGallery(),
-                color: Colors.grey[300],
-                child: SvgPicture.asset(
-                  "assets/icons/Camera Icon.svg",
-                  color: kPrimaryColor,
-                ),
-              ),
-            ),
-          ),
-          url != ""
-              ? Positioned(
-                  left: -12,
-                  top: 0,
+      child: loading
+          ? Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("assets/images/circleprogress.gif"),
+                      fit: BoxFit.cover)))
+          : Stack(
+              overflow: Overflow.visible,
+              fit: StackFit.passthrough,
+              children: [
+                url != ""
+                    ? CircleAvatar(
+                        backgroundImage: NetworkImage(this.url),
+                      )
+                    : Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage("assets/images/photo.jpg"),
+                                fit: BoxFit.cover))),
+                Positioned(
+                  right: -12,
+                  bottom: 0,
                   child: SizedBox(
                     height: 46,
                     width: 46,
@@ -187,18 +166,39 @@ class _ProfilePicState extends State<ProfilePic> {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50),
                           side: BorderSide(color: Colors.white)),
-                      onPressed: () => {_showMyDialog()},
+                      onPressed: () => cameraOrGallery(),
                       color: Colors.grey[300],
-                      child: Icon(
-                        Icons.delete,
-                        color: Colors.red,
+                      child: SvgPicture.asset(
+                        "assets/icons/Camera Icon.svg",
+                        color: kPrimaryColor,
                       ),
                     ),
                   ),
-                )
-              : Container()
-        ],
-      ),
+                ),
+                url != ""
+                    ? Positioned(
+                        left: -12,
+                        top: 0,
+                        child: SizedBox(
+                          height: 46,
+                          width: 46,
+                          child: FlatButton(
+                            padding: EdgeInsets.zero,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50),
+                                side: BorderSide(color: Colors.white)),
+                            onPressed: () => {_showMyDialog()},
+                            color: Colors.grey[300],
+                            child: Icon(
+                              Icons.delete,
+                              color: Colors.red,
+                            ),
+                          ),
+                        ),
+                      )
+                    : Container()
+              ],
+            ),
     ));
   }
 

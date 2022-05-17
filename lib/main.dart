@@ -3,7 +3,6 @@ import 'package:flutter_auth/LanguageChangeProvider.dart';
 import 'package:flutter_auth/Screens/Welcome/welcome_screen.dart';
 import 'package:flutter_auth/constants.dart';
 import 'package:flutter_auth/generated/l10n.dart';
-import 'package:flutter_auth/models/notificationservice.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_auth/home_page.dart';
@@ -19,15 +18,13 @@ Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 
 Future<void> firebaseMessagingOnMessageOpenedAppHandler(
     RemoteMessage message) async {
-  NotificationService().showNotification(
-      1, message.notification.title, message.notification.body);
+  print("Foreground message");
 }
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  final fcmToken = await FirebaseMessaging.instance.getToken();
-  print(fcmToken);
+  await FirebaseMessaging.instance.subscribeToTopic("news");
 
   FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
   FirebaseMessaging.onMessage
