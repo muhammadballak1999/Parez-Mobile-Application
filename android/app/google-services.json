@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "707792614228",
+    "project_id": "collage-fyp",
+    "storage_bucket": "collage-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707792614228:android:a510c5a183cb4e5d728ec1",
+        "android_client_info": {
+          "package_name": "com.example.flutter_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707792614228-ibip4rl2jrpc4039bh2l570i7ipletgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEe6zpi25dXJfgffFd5XN-Y3diilyn_0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707792614228-ibip4rl2jrpc4039bh2l570i7ipletgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707792614228:android:8ae4cda8f94e882d728ec1",
+        "android_client_info": {
+          "package_name": "org.cordova.quasar.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707792614228-ibip4rl2jrpc4039bh2l570i7ipletgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEe6zpi25dXJfgffFd5XN-Y3diilyn_0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707792614228-ibip4rl2jrpc4039bh2l570i7ipletgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

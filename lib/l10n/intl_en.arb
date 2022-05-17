@@ -1,0 +1,180 @@
+{
+  "welcomeText" : "Hi welcome",
+  "@welcomeText": {
+    "description": "the programmer greeting"
+  },
+
+  "womenRights": "Women Rights",
+  "@womenRights": {
+    "description": "chini bashi"
+  },
+  "loginText": "Login",
+  "@loginText": {
+    "description": "Login"
+  },
+  "signUpText": "Sign Up",
+  "@signUpText": {
+    "description": "SignUp"
+  },
+"help": "Help",
+  "@help": {
+  "description":"Help"
+},
+  "news": "News",
+  "@news": {
+    "description":"News"
+  },
+  "settings": "Settings",
+  "@setting": {
+    "description":"Settings"
+  },
+  "passText": "Password",
+  "@passText": {
+    "description":"Password"
+  },
+  "emailText": "Full Name",
+  "@emailText": {
+    "description":"Your Email"
+  },
+  "dontHaveAcc": "Don’t have an Account ? ",
+  "@dontHaveAcc": {
+    "description":"Don’t have an Account ? "
+  },
+  "haveAcc": "Already have an Account ?",
+  "@haveAcc": {
+    "description":"Already have an Account ? "
+  },
+  "myAcc": "My Account",
+  "@myAcc": {
+    "description": "My Account"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications"
+  },
+  "helpCenter": "Help Center",
+  "@helpCenter": {
+    "description": "Help Center"
+  },
+  "logOut": "Log out",
+  "@logOut": {
+    "description": "Log out"
+  },
+  "phoneNO": "0750 XXX XXXX",
+  "@phoneNO": {
+    "description": "phone number"
+  },
+  "aboutUs": "About Us",
+  "@aboutUs": {
+    "description": "About Us"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language"
+  },
+  "termCondition": "Terms & Conditions",
+  "@termCondition": {
+    "description": "Terms & Conditions"
+  },
+  "rules": "Announcements & Rules",
+  "@rules": {
+    "description": "rules"
+  },
+  "helpButton": "PUSH\nHOLD",
+  "@helpButton": {
+    "description": "helpButton"
+  },
+  "rejectButton": "HOLD\nREJECT",
+  "@rejectButton": {
+    "description": "rejectButton"
+  },
+  "noBlogs": "No blogs found :(",
+  "@noBlogs": {
+    "description": "No blogs found"
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "warning"
+  },
+  "unknownNO": "The phone number you entered is not registered!",
+  "@unknownNO": {
+    "description": "warning"
+  },
+  "okButton": "Ok",
+  "@okButton": {
+    "description": "OK"
+  },
+  "otpText": "The otp number you entered is wrong! Please try again.",
+  "@otpText": {
+    "description": "otp"
+  },
+  "knownNO": "The phone number you entered already registered!",
+  "@knownNO": {
+    "description": "known no"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "tryAgain"
+  },
+  "enterOtp": "Enter Otp code sent to your mobile",
+  "@enterOtp": {
+    "description": "enterOtp"
+  },
+  "verify": "Verify",
+  "@verify": {
+    "description": "verify"
+  },
+  "otpVerify": "Otp Verification",
+  "@otpVerify": {
+    "description": "otpVerify"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone NUmber"
+  },
+  "city": "City",
+  "@city": {
+    "description": "City"
+  },
+  "martialSt": "Martial Status",
+  "@martialSt": {
+    "description": "Martial Status"
+  },
+  "editInfo": "Edit Information",
+  "@editInfo": {
+    "description": "edit info"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "close"
+  },
+  "approve": "Approve",
+  "@approve": {
+    "description": "Approve"
+  },
+
+  "back": "Back",
+  "@back":{
+   "description":"Back"
+},
+  "gallery": "From Gallery",
+  "@gallery":{
+    "description":"gallery"
+  },
+  "camera": "From Camera",
+  "@camera":{
+    "description":"camera"
+  },
+  "choose": "Choose",
+  "@choose":{
+    "description":"choose"
+  },
+  "In": "in",
+  "@In":{
+    "description":"in"
+  }
+}

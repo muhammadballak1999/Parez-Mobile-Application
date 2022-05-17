@@ -1,0 +1,181 @@
+{
+  "welcomeText" : "اهلا وسهلا",
+  "@welcomeText": {
+    "description": "the programmer greeting"
+  },
+
+  "womenRights": "حقوق المرأة",
+  "@womenRights": {
+    "description": "chini bashi"
+  },
+  "loginText": "تسجيل الدخول",
+  "@loginText": {
+    "decription": "login"
+  },
+  "signUpText": "أفتح حساب ",
+  "@signUpText": {
+    "decription": "SignUp"
+  },
+  "help": "مساعدة",
+  "@help": {
+    "description":"Help"
+  },
+  "news": "الإخبارية",
+  "@news": {
+    "description":"News"
+  },
+  "settings": "ضبط",
+  "@settings": {
+    "description":"settings"
+  },
+  "passText": "كلمه السر",
+  "@passText": {
+    "description":"Password"
+  },
+  "emailText": "الاسم الكامل",
+  "@emailText": {
+    "description":"Your Email"
+  },
+  "dontHaveAcc": " ليس لديك حساب ؟ ",
+  "@dontHaveAcc": {
+    "description":"Don’t have an Account ? "
+  },
+  "haveAcc": " هل لديك حساب ؟ ",
+  "@haveAcc": {
+    "description":"Already have an Account ? "
+  },
+  "myAcc": "حسابي ",
+  "@myAcc": {
+    "description": "My Account"
+  },
+  "notifications": "إشعارات",
+  "@notifications": {
+    "description": "Notifications"
+  },
+  "helpCenter": "مركز المساعدة",
+  "@helpCenter": {
+    "description": "Help Center"
+  },
+  "logOut": "تسجيل خروج",
+  "@logOut": {
+    "description": "Log out"
+  },
+  "phoneNO": " ٠٧٥٠ xxx xxxx ",
+  "@phoneNO": {
+    "description": "phone number"
+  },
+  "aboutUs": "معلومات عنا",
+  "@aboutUs": {
+    "description": "About Us"
+  },
+  "language": "اللغة",
+  "@language": {
+    "description": "About Us"
+  },
+  "termCondition": "الأحكام والشروط",
+  "@termCondition": {
+    "description": "Terms & Conditions"
+  },
+  "rules": "إعلان وقواعد",
+  "@rules": {
+    "description": "rules"
+  },
+  "helpButton": "اضغط على عقد",
+  "@helpButton": {
+    "description": "helpButton"
+  },
+  "rejectButton": "عقد رفض",
+  "@rejectButton": {
+    "description": "rejectButton"
+  },
+  "noBlogs": "لم يتم العثور على مدونات :(",
+  "@noBlogs": {
+    "description": "No blogs found"
+  },
+  "warning": "تحذير",
+  "@warning": {
+    "description": "warning"
+  },
+  "unknownNO": "رقم الهاتف الذي أدخلته غير مسجل!",
+  "@unknownNO": {
+    "description": "warning"
+  },
+  "okButton": "حسنا",
+  "@okButton": {
+    "description": "OK"
+  },
+  "otpText": "رقم otp الذي أدخلته خاطئ! حاول مرة اخرى.",
+  "@otpText": {
+    "description": "otp"
+  },
+  "knownNO": "رقم الهاتف الذي أدخلته مسجل بالفعل!",
+  "@knownNO": {
+    "description": "known no"
+  },
+  "tryAgain": "حاول مرة أخرى",
+  "@tryAgain": {
+    "description": "tryAgain"
+  },
+  "enterOtp": "أدخل رمز Otp المرسل إلى هاتفك المحمول",
+  "@enterOtp": {
+    "description": "enterOtp"
+  },
+  "verify": "التحقق",
+  "@verify": {
+    "description": "verify"
+  },
+  "otpVerify": "التحقق من Otp",
+  "@otpVerify": {
+    "description": "otpVerify"
+  },
+  "name": "الاسم",
+  "@name": {
+    "description": "Name"
+  },
+  "phoneNumber": "رقم الهاتف",
+  "@phoneNumber": {
+    "description": "Phone NUmber"
+  },
+  "city": "مدينة",
+  "@city": {
+    "description": "City"
+  },
+  "martialSt": "الحالة الإجتماعية",
+  "@martialSt": {
+    "description": "Martial Status"
+  },
+  "editInfo": "تعديل المعلومات",
+  "@editInfo": {
+    "description": "edit info"
+  },
+  "close": "اغلق",
+  "@close": {
+    "description": "close"
+  },
+  "approve": "موافق",
+  "@approve": {
+    "description": "Approve"
+  },
+
+  "back": "رجوع",
+  "@back":{
+    "description":"Back"
+  },
+  "gallery": "من الصور",
+  "@gallery":{
+    "description":"gallery"
+  },
+  "camera": "من الكاميرا",
+  "@camera":{
+    "description":"camera"
+  },
+  "choose": "أختر",
+  "@choose":{
+    "description":"choose"
+  },
+
+  "In": "في",
+  "@In":{
+    "description":"in"
+  }
+}

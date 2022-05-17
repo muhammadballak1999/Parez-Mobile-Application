@@ -1,0 +1,181 @@
+{
+  "welcomeText" : "بەخێربێن",
+  "@welcomeText": {
+    "description": "the programmer greeting"
+  },
+
+  "womenRights": "مافی ئافرەتان",
+  "@womenRights": {
+    "description": "chini bashi"
+  },
+  "loginText": "چوونەژوورەوە",
+  "@loginText": {
+    "description": "Login"
+  },
+  "signUpText": "خۆ تۆمارکردن",
+  "@signUpText": {
+    "description": "SignUp"
+  },
+  "help": "یارمەتی",
+  "@help": {
+    "description":"Help"
+  },
+  "news": "هەواڵەکان",
+  "@news": {
+    "description":"News"
+  },
+  "settings": "ڕێکخستن",
+  "@setting": {
+    "description":"Settings"
+  },
+  "passText": "ووشەی نهێنی",
+  "@passText": {
+    "description":"Password"
+  },
+  "emailText": "ناوی سیانی",
+  "@emailText": {
+    "description":"Your Email"
+  },
+  "dontHaveAcc": "هەژمارت نییە ؟ ",
+  "@dontHaveAcc": {
+    "description":"Don’t have an Account ? "
+  },
+  "haveAcc": "هەژمارت هەیە ؟",
+  "@haveAcc": {
+    "description":"Already have an Account ? "
+  },
+  "myAcc": "هەژمارەکەم",
+  "@myAcc": {
+    "description": "My Account"
+  },
+  "notifications": "ئاگانامەکان",
+  "@notifications": {
+    "description": "Notifications"
+  },
+  "helpCenter": "ناوەندی یارمەتی",
+  "@helpCenter": {
+    "description": "Help Center"
+  },
+  "logOut": "دەرچوون",
+  "@logOut": {
+    "description": "Log out"
+  },
+  "phoneNO": "xxx xxxx ٠٧٥٠",
+  "@phoneNO": {
+    "description": "phone number"
+  },
+  "aboutUs": "دەربارەی ئێمە",
+  "@aboutUs": {
+    "description": "About Us"
+  },
+  "language": "زمان",
+  "@language": {
+    "description": "About Us"
+  },
+  "termCondition": "مەرج و داواکاریەکان",
+  "@termCondition": {
+    "description": "Terms & Conditions"
+  },
+  "rules": "ڕاگەیاندن و یاساکان",
+  "@rules": {
+    "description": "Terms & Conditions"
+  },
+  "helpButton": "پاڵدان بۆ\n یارمەتی",
+  "@helpButton": {
+    "description": "helpButton"
+  },
+  "rejectButton": "ڕاگرتنی\n یارمەتی",
+  "@rejectButton": {
+    "description": "rejectButton"
+  },
+  "noBlogs": "هیج بلۆگێک نەدۆزرایەوە :(",
+  "@noBlogs": {
+    "description": "No blogs found"
+  },
+  "warning": "ئاگاداری",
+  "@warning": {
+    "description": "warning"
+  },
+  "unknownNO": "ئەو ژمارە مۆبایلەی داتناوە تۆمار نەکراوە ! ",
+  "@unknownNO": {
+    "description": "warning"
+  },
+  "okButton": "باشە",
+  "@okButton": {
+    "description": "OK"
+  },
+  "otpText": "ئەو ژمارە otp تۆمارت کردووە هەڵەیە! تکایە دووبارەیی بکەوە",
+  "@otpText": {
+    "description": "otp"
+  },
+  "knownNO": "ئەو ژمارەی داتناوە پێشتر تۆمار کراوە!",
+  "@knownNO": {
+    "description": "known no"
+  },
+  "tryAgain": "دووبارە تاقی بکەوە",
+  "@tryAgain": {
+    "description": "tryAgain"
+  },
+  "enterOtp": "ئەو otp کۆدە تۆمار بکە کە بۆ مۆبایلەکەت نێردراوە",
+  "@enterOtp": {
+    "description": "enterOtp"
+  },
+  "verify": "سەلماندن",
+  "@verify": {
+    "description": "verify"
+  },
+  "otpVerify": "سەلماندنی OTP",
+  "@otpVerify": {
+    "description": "otpVerify"
+  },
+  "name": "ناوی تەواو",
+  "@name": {
+    "description": "Name"
+  },
+  "phoneNumber": "ژمارە مۆبایل",
+  "@phoneNumber": {
+    "description": "Phone NUmber"
+  },
+  "city": "شار",
+  "@city": {
+    "description": "City"
+  },
+  "martialSt": "باری کۆمەڵایەتی",
+  "@martialSt": {
+    "description": "Martial Status"
+  },
+  "editInfo": "گۆڕینی زانیاری",
+  "@editInfo": {
+    "description": "edit info"
+  },
+  "close": "داخستن",
+  "@close": {
+    "description": "close"
+  },
+  "approve": "پەسەند کردن",
+  "@approve": {
+    "description": "Approve"
+  },
+
+  "back": "گەڕانەوە",
+  "@back":{
+    "description":"Back"
+  },
+  "gallery": "لە وێنەکان",
+  "@gallery":{
+    "description":"gallery"
+  },
+  "camera": "لە کامێرا",
+  "@camera":{
+    "description":"camera"
+  },
+  "choose": "هەڵبژێرە",
+  "@choose":{
+    "description":"choose"
+  },
+
+  "In": "لە",
+  "@In":{
+    "description":"in"
+  }
+}
